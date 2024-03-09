@@ -62,6 +62,8 @@ main {
 }
 
 .products {
+    color: palevioletred;
+background-color: lightblue;
 color: black;
 background-color: orange;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
