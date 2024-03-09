@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: ;
+    box-sizing: border-box;
 }
 
 /* Reset default margin and padding */
@@ -48,7 +48,9 @@ main {
 }
 
 .products {
-    /* Styles for product listings */
+color: blue;
+background-color: blueviolet;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 footer {
@@ -56,4 +58,10 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+table{
+    color: #333;
+    background-color: aqua;
+    border: 3px solid black;
+    font-family: fantasy;
 }
