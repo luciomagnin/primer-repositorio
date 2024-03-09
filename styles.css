@@ -12,16 +12,22 @@ body, h1, h2, p, ul {
 
 /* Basic styles */
 body {
-    font-family: Arial, sans-serif;
+    background-color: greenyellow;
 }
 
 header {
+    height: 70px;
     background-color: #333;
-    color: #fff;
+    color: #fc0101;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+span{
+    color: #fffffff7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 3px 5px rgba(255, 0, 0, 0.747);
 }
 
 nav ul {
@@ -38,6 +44,12 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover{
+    transition: 0.6s;
+    color: blue;
+    text-decoration: underline;
+}
+
 main {
     padding: 20px;
 }
@@ -48,14 +60,14 @@ main {
 }
 
 .products {
-color: blue;
-background-color: blueviolet;
+color: black;
+background-color: orange;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: #00ff2f;
     text-align: center;
     padding: 10px 0;
 }
