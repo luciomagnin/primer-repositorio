@@ -40,6 +40,8 @@ nav ul li {
 }
 
 nav ul li a {
+    font-weight: 200;
+    font-size: 18px;
     color: #fff;
     text-decoration: none;
 }
